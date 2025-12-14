@@ -9,7 +9,7 @@ Plugin para **RocketModFix / Unturned** enfocado en:
 - **Alertas de raid** con mención al dueño (si está vinculado)
 - SPY screenshot (`/spy <nombre>`) con envío estable
 
-> Este repo incluye un paquete listo para subir/descargar en GitHub: `github-package/`.
+> Este repo incluye un paquete listo para descargar.
 
 ---
 
