@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-label="Bigfoot">
+  <title>Bigfoot</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="22%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#e5e7eb" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#e5e7eb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="180" rx="18" fill="url(#g)"/>
+  <rect x="0" y="0" width="640" height="180" rx="18" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="638.5" height="178.5" rx="17.25" fill="none" stroke="#1f2937" stroke-opacity="0.85" stroke-width="1.5"/>
+
+  <!-- Divider (subtle) -->
+  <rect x="232" y="34" width="1" height="112" fill="#ffffff" opacity="0.08"/>
+
+  <!-- Footprint (kept geometric; add soft shadow for depth) -->
+  <g transform="translate(60,34)" opacity="0.98">
+    <!-- shadow -->
+    <g transform="translate(2,3)" fill="#000000" opacity="0.20">
+      <circle cx="50" cy="18" r="10"/>
+      <circle cx="78" cy="10" r="11"/>
+      <circle cx="108" cy="10" r="11"/>
+      <circle cx="136" cy="18" r="10"/>
+      <path d="M78,34
+               C60,38 46,52 44,70
+               C42,94 54,118 74,134
+               C92,149 118,154 140,146
+               C162,138 176,118 176,94
+               C176,64 156,38 128,34
+               C112,32 96,32 78,34 Z"/>
+    </g>
+
+    <!-- mark -->
+    <g fill="#e5e7eb" opacity="0.95">
+    <!-- toes -->
+    <circle cx="50" cy="18" r="10"/>
+    <circle cx="78" cy="10" r="11"/>
+    <circle cx="108" cy="10" r="11"/>
+    <circle cx="136" cy="18" r="10"/>
+
+    <!-- sole -->
+    <path d="M78,34
+             C60,38 46,52 44,70
+             C42,94 54,118 74,134
+             C92,149 118,154 140,146
+             C162,138 176,118 176,94
+             C176,64 156,38 128,34
+             C112,32 96,32 78,34 Z"/>
+
+    <!-- cutouts -->
+    <g fill="#111827" opacity="0.35">
+      <ellipse cx="92" cy="88" rx="10" ry="14"/>
+      <ellipse cx="134" cy="94" rx="10" ry="14"/>
+      <ellipse cx="114" cy="116" rx="14" ry="10"/>
+    </g>
+  </g>
+  </g>
+
+  <!-- Text -->
+  <g fill="#ffffff" font-family="Segoe UI, Arial, sans-serif">
+    <text x="260" y="80" font-size="48" font-weight="800" letter-spacing="0.2">Bigfoot</text>
+    <text x="260" y="116" font-size="18" opacity="0.84">RocketModFix / Unturned • Discord bot + logs</text>
+  </g>
+</svg>

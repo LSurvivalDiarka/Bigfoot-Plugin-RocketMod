@@ -1,0 +1,38 @@
+<BigfootConfiguration>
+  <VerboseConsoleLogs>false</VerboseConsoleLogs>
+
+  <EnableRcon>true</EnableRcon>
+  <BotToken>TOKEN_AQUI</BotToken>
+  <RconChannelId>123456789</RconChannelId>
+  <!-- Canal SOLO para vinculación: la gente pega su código aquí (4 dígitos / !link 1234). -->
+  <!-- El bot intentará borrar el mensaje del usuario (requiere permiso Manage Messages). 0 = deshabilitado. -->
+  <LinkChannelId>0</LinkChannelId>
+
+    <!-- Panel de Estado en Vivo (anti-spam): se edita siempre el mismo mensaje -->
+    <!-- Pega aquí el ID del canal donde quieres el panel (Developer Mode en Discord) -->
+    <StatusChannelId>0</StatusChannelId>
+    <!-- Déjalo en 0: Bigfoot lo setea automáticamente al crear el mensaje -->
+    <StatusMessageId>0</StatusMessageId>
+
+    <!-- Botón "Conectar" en el panel (opcional). -->
+    <!-- Usa placeholders {port} (y si quieres {ip}/{code}). Ejemplo: steam://connect/MI_IP_PUBLICA:{port} -->
+    <StatusConnectUrl></StatusConnectUrl>
+
+    <!-- Alertas de Raid -->
+    <!-- ID del canal donde Bigfoot enviará alertas cuando dañen estructuras/barricadas (0 = deshabilitado) -->
+    <RaidAlertChannelId>0</RaidAlertChannelId>
+
+  <AllowedAdminRoles>
+     <RoleId>987654321</RoleId>
+  </AllowedAdminRoles>
+
+  <GlobalChatWebhook>URL_AQUI</GlobalChatWebhook>
+  <GroupChatWebhook>URL_AQUI</GroupChatWebhook>
+  <AdminCommandsWebhook>URL_AQUI</AdminCommandsWebhook>
+  <UserCommandsWebhook>URL_AQUI</UserCommandsWebhook>
+  <ConnectionWebhook>URL_AQUI</ConnectionWebhook>
+  <DossierIpWebhook>URL_AQUI</DossierIpWebhook>
+  <PvPWebhook>URL_AQUI</PvPWebhook>
+  <!-- Muertes NO-PvP (zombis, animales, caídas, suicidio, entorno). Si se deja en URL_AQUI, se reutiliza PvPWebhook. -->
+  <DeathWebhook>URL_AQUI</DeathWebhook>
+</BigfootConfiguration>
