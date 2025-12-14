@@ -150,7 +150,7 @@ Requisitos:
 Comandos:
 
 - Build Release + paquete dist:
-  - Ejecuta `build-release.ps1`
+
 
 Salida:
 - `dist/Bigfoot/` (plugin + dependencias)
